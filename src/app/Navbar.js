@@ -363,6 +363,11 @@ export default function Navbar() {
                       </Link>
                     </li> */}
                     <li>
+                      <Link href="/refresh-grants" onClick={handleLinkClick}>
+                        <div className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">refresh grants</div>
+                      </Link>
+                    </li>
+                    <li>
                       <Link href="/connect" onClick={handleLinkClick}>
                         <div className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">ministries</div>
                       </Link>

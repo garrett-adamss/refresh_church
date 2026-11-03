@@ -87,6 +87,7 @@ export default async function sitemap() {
       '/give',
       '/leadership',
       '/missions-and-outreach',
+      '/refresh-grants',
       '/mens-ministry',
       '/r-kids',
       '/discovery',
