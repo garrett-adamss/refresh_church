@@ -114,6 +114,17 @@ export default function RefreshGrantsPage() {
         </div>
       </div>
 
+      <div className="relative mb-12 h-[280px] w-full overflow-hidden rounded-2xl shadow-lg sm:h-[460px]">
+        <Image
+          src="/photos/refresh-grants.webp"
+          alt="Refresh Church gathered together, hands raised, ready to go and do"
+          fill
+          priority
+          sizes="(min-width: 1280px) 1100px, 100vw"
+          className="object-cover object-center"
+        />
+      </div>
+
       <h3 className="text-2xl font-semibold text-gray-900 mb-6">
         Three steps
       </h3>
