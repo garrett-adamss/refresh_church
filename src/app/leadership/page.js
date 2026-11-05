@@ -7,34 +7,37 @@ export default function Leadership() {
   
   const staff = [
     {
-      img: "/photos/leadership/sam.webp",
+      img: "/photos/leadership/sam.jpg",
       name: "Pastor Sam Pech",
       title: "Executive Pastor of Ministries",
     },
     {
-      img: "/photos/leadership/dylan.webp",
+      img: "/photos/leadership/dylan.jpg",
       name: "Pastor Dylan Cochran",
       title: "Worship & Production Pastor",
+      objectPosition: "center 17%",
     },
     {
-      img: "/photos/leadership/chris.webp",
+      img: "/photos/leadership/chris.jpg",
       name: "Pastor Chris Abernathy",
-      title: "Connections Pastor",
+      title: "Adult Discipleship Pastor",
+      objectPosition: "center 38%",
     },
     {
-      img: "/photos/leadership/nicole.webp",
+      img: "/photos/leadership/nicole.jpg",
       name: "Nicole Sherwood",
       title: "Pastoral & Admin Assistant",
     },
     {
-      img: "/photos/leadership/jeanine.webp",
+      img: "/photos/leadership/jeanine.jpg",
       name: "Jeanine Abernathy",
       title: "Children’s Director",
     },
     {
-      img: "/photos/leadership/cat.webp",
+      img: "/photos/leadership/cat.jpg",
       name: "Cat Howard",
       title: "Ministries Admin",
+      objectPosition: "center 35%",
     },
     {
       img: "/photos/leadership/eric.jpg",
@@ -52,7 +55,7 @@ export default function Leadership() {
         <div className="w-full lg:w-1/3 mb-8 lg:mb-0 flex justify-center">
           <div className="relative xl:w-72 xl:h-72 w-56 h-56">
             <Image
-              src="/photos/leadership/TJLeah.webp" // Replace with the actual path to the image
+              src="/photos/leadership/TJLeah.jpg"
               layout="fill"
               objectFit="cover"
               alt="Head Pastor"
@@ -94,6 +97,7 @@ export default function Leadership() {
                 src={item.img} // Replace with the actual path to the image
                 layout="fill"
                 objectFit="cover"
+                objectPosition={item.objectPosition || "center"}
                 alt={`${item.name} image`}
                 className="rounded-full mb-4"
               />

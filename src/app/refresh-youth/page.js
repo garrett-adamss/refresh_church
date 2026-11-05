@@ -23,10 +23,10 @@ export default function YouthMinistry() {
         <div className="lg:w-1/2 w-full">
           <div className="w-full h-[350px] relative overflow-hidden rounded-2xl shadow-lg">
             <Image
-              src="/photos/youth/01.webp"
+              src="/photos/youth/01.jpg"
               layout="fill"
               objectFit="cover"
-              alt="Youth Ministry Image 1"
+              alt="Youth at camp outdoors"
             />
           </div>
         </div>
@@ -45,11 +45,10 @@ export default function YouthMinistry() {
           <div className="lg:w-1/2 w-full">
             <div className="w-full h-[250px] relative overflow-hidden rounded-2xl shadow-lg">
               <Image
-                src="/photos/youth/02.webp" // Replace with the actual path to the image
+                src="/photos/youth/02.jpg"
                 layout="fill"
-                objectPosition="0 35%"
                 objectFit="cover"
-                alt="Women's Ministry Image 3"
+                alt="Youth worship and singing together"
               />
             </div>
           </div>
@@ -71,11 +70,10 @@ export default function YouthMinistry() {
         <div className="lg:w-1/2 w-full mt-8 lg:mt-0">
           <div className="w-full h-[350px] relative overflow-hidden rounded-2xl shadow-lg">
             <Image
-              src="/photos/youth/03.webp" // Replace with the actual path to the image
+              src="/photos/youth/03.jpg"
               layout="fill"
-              objectPosition="0 10%"
               objectFit="cover"
-              alt="Youth Ministry Image 3"
+              alt="Youth gathering and community"
             />
           </div>
         </div>
