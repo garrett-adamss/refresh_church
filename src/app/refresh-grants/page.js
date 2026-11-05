@@ -11,6 +11,8 @@ export const metadata = {
 const APPLICATION_URL =
   "https://refresh.churchcenter.com/people/forms/1348985";
 
+const PAGE_URL = "https://www.refresh.church/refresh-grants";
+
 const applyButtonClass =
   "inline-block bg-primaryDark text-white text-lg font-semibold py-3 px-6 rounded-full hover:bg-primary transition duration-300 ease-in-out";
 
@@ -51,7 +53,7 @@ const afterYouApply = [
   },
   {
     title: "Next steps and resources",
-    body: "If you are approved, you will get an email or a phone call with the amount, what it is for, how payment works, and any conditions. You will also get help for the conversation itself: what to do and what not to do, how to pray, questions to ask, and how to follow up.",
+    body: "If you are approved, you will get an email or a phone call with the amount, what it is for, how payment works, and any conditions. You will also get help for the visit itself: what to do and what not to do, questions to ask, and how to follow up.",
   },
   {
     title: "Payment",
@@ -100,16 +102,31 @@ export default function RefreshGrantsPage() {
             Fill out the application
           </Link>
         </div>
-        <div className="lg:w-1/3 w-full flex justify-center">
-          <div className="bg-white shadow-lg rounded-2xl p-8 flex items-center justify-center">
+        <div className="lg:w-1/3 w-full min-w-0 flex justify-center">
+          <div className="bg-white shadow-lg rounded-2xl p-6 flex w-full max-w-xs flex-col items-center justify-center gap-5">
             <Image
               src="/photos/refresh-grants-mark.png"
               alt="Refresh Grants"
               width={233}
               height={108}
               priority
-              className="h-auto w-56"
+              className="h-auto w-full max-w-[11rem]"
             />
+            <div className="flex flex-col items-center text-center">
+              <Image
+                src="/photos/refresh-grants-qr.png"
+                alt="QR code that opens the Refresh Grants page"
+                width={180}
+                height={180}
+                className="h-auto w-32"
+              />
+              <p className="text-gray-700 text-base mt-3">
+                Scan to open this page
+              </p>
+              <Link href={PAGE_URL} className="text-gray-500 text-sm hover:text-primary">
+                refresh.church/refresh-grants
+              </Link>
+            </div>
           </div>
         </div>
       </div>
@@ -180,18 +197,16 @@ export default function RefreshGrantsPage() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
         <div className="bg-white shadow-md rounded-2xl p-6 h-full">
           <h3 className="text-2xl font-semibold text-gray-900 mb-4">
-            A simple way to pray
+            How to minister
           </h3>
           <p className="text-gray-700 text-lg mb-4">
-            Ask, “Would you like me to pray with you?” If they say yes, you
-            can pray something like this:
-          </p>
-          <p className="text-gray-700 text-lg mb-4">
-            “Jesus, thank you for loving [name]. Please bring peace, provide
-            for their needs, and guide their next steps. Amen.”
+            You are the one who shows up. The grant covers the cost so you can
+            bring the care.
           </p>
           <p className="text-gray-700 text-lg">
-            If they decline, respect that answer.
+            Listen first. Ask how they are doing and what would actually help.
+            Do what you said you would do, then follow up so they know they are
+            not on their own after the help is given.
           </p>
         </div>
         <div className="bg-white shadow-md rounded-2xl p-6 h-full">

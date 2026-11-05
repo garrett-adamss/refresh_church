@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Shell(git log --oneline -10 && echo \"---\" && git rev-list --count HEAD)",
+      "Shell(python3 /Users/gar/source/refresh_church/.rlog_decode.py)",
+      "Shell(python3 /Users/gar/source/refresh_church/.git_oneline_count.py)",
+      "Shell(/usr/local/bin/node /Users/gar/source/refresh_church/_gitlog.mjs)"
+    ]
+  }
+}
+

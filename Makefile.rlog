@@ -1,0 +1,2 @@
+rlog:
+	/usr/bin/python3 /Users/gar/source/refresh_church/.rlog_decode.py
