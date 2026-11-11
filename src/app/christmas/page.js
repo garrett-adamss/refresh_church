@@ -4,20 +4,17 @@ import GoogleReviewsCarousel from "../components/GoogleReviewsCarousel";
 
 export default function ChristmasPage() {
   return (
-    <main className="min-h-screen">
-      {/* Hero Section */}
-      <section className="relative w-full overflow-hidden m-0" style={{ aspectRatio: '1920/1000' }}>
-        <div className="absolute inset-0" style={{ top: '-15%', height: '115%' }}>
-          <Image
-            src='/photos/christmas/with-time.webp'
-            width={1920}
-            height={1080}
-            className="w-full h-full object-cover"
-            style={{ objectPosition: 'center top' }}
-            alt="First Time Here Image"
-            draggable="false"
-          />
-        </div>
+    <main className="min-h-screen bg-[#fff9f5]">
+      {/* This year's artwork includes the service date and times. */}
+      <section className="bg-[#ff383f]">
+        <Image
+          src="/photos/christmas/starry-nights-2026.png"
+          width={1920}
+          height={1080}
+          className="block h-auto w-full"
+          alt="Starry Nights: Christmas at Refresh. December 23rd at 5pm and 6:30pm."
+          priority
+        />
       </section>
 
       <section className="m-0">
@@ -29,7 +26,7 @@ export default function ChristmasPage() {
         <div className="flex flex-col lg:flex-row items-center mb-12">
           <div className="lg:w-1/2 mb-8 lg:mb-0 lg:pr-8">
             <h1 className="text-4xl font-bold text-gray-900 mb-4">
-              Christmas at REFRESH
+              Starry Nights at REFRESH
             </h1>
             <div className="text-gray-700 space-y-3 text-lg">
               <p className="font-semibold">
@@ -55,10 +52,10 @@ export default function ChristmasPage() {
           <div className="lg:w-1/2 w-full">
             <div className="w-full h-[250px] relative overflow-hidden rounded-2xl shadow-lg">
               <Image
-                src="/photos/easter/img14.webp"
+                src="/photos/christmas/IMG_5638.jpg"
                 layout="fill"
                 objectFit="cover"
-                alt="easter image 1"
+                alt="Glowing star decorations"
               />
             </div>
           </div>
@@ -78,11 +75,11 @@ export default function ChristmasPage() {
             <div className="lg:w-1/2 w-full">
               <div className="w-full h-[250px] relative overflow-hidden rounded-2xl shadow-lg">
                 <Image
-                  src="/photos/easter/img1.webp"
+                  src="/photos/christmas/IMG_5634.jpg"
                   layout="fill"
                   objectPosition="0 50%"
                   objectFit="cover"
-                  alt="easter image 2"
+                  alt="Evergreen branches and Christmas lights"
                 />
               </div>
             </div>
@@ -95,7 +92,7 @@ export default function ChristmasPage() {
             <h1 className="text-4xl font-semibold text-gray-900 mb-4">What to Expect</h1>
             <div className="text-gray-700 text-lg space-y-3">
               <p>Expect services to be modern, fairly loud, engaging, and fun for the whole family.</p>
-              <p className="text-primary font-semibold text-xl">
+              <p className="text-[#b7222b] font-semibold text-xl">
                 We would love to see you and your loved ones. Invite a friend!
               </p>
             </div>
@@ -109,11 +106,11 @@ export default function ChristmasPage() {
           <div className="lg:w-1/2 w-full">
             <div className="w-full h-[250px] relative overflow-hidden rounded-2xl shadow-lg">
               <Image
-                src="/photos/easter/img13.webp"
+                src="/photos/christmas/IMG_5635.jpg"
                 layout="fill"
                 objectPosition="0 55%"
                 objectFit="cover"
-                alt="easter image 3"
+                alt="Christmas wreath on a wooden wall"
               />
             </div>
           </div>
@@ -125,17 +122,14 @@ export default function ChristmasPage() {
         </div>
       </div>
 
-      {/* Banner */}
-      <section className="pt-6">
-        <div className="w-full relative" style={{ paddingBottom: '20%' }}>
-          <Image
-            src="/photos/christmas/pexels-byrahul-695644.jpg"
-            layout="fill"
-            objectFit="cover"
-            objectPosition="center 88%"
-            alt="Christmas banner"
-          />
-        </div>
+      <section className="bg-[#ff383f]">
+        <Image
+          src="/photos/christmas/IMG_5639.jpg"
+          width={1200}
+          height={675}
+          className="block h-auto w-full"
+          alt="Starry Nights: Christmas at Refresh"
+        />
       </section>
 
       {/* <PlanVisitSticky
