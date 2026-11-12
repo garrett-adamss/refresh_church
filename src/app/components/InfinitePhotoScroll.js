@@ -8,9 +8,12 @@ export function InfinitePhotoScroll({ event = "easter" }) {
   const images = event === "christmas" 
     ? [
         { id: 1, src: "/photos/christmas/IMG_5632.jpg", alt: "Warm string lights overhead" },
-        { id: 2, src: "/photos/christmas/IMG_5634.jpg", alt: "Evergreen branches and Christmas lights" },
+        { id: 2, src: "/photos/easter/img1.webp", alt: "People gathered at Refresh Church" },
+        { id: 6, src: "/photos/christmas/IMG_5634.jpg", alt: "Evergreen branches and Christmas lights" },
         { id: 3, src: "/photos/christmas/IMG_5635.jpg", alt: "Christmas wreath on a wooden wall" },
         { id: 4, src: "/photos/christmas/IMG_5636.jpg", alt: "Glowing string lights" },
+        { id: 7, src: "/photos/christmas/DSC04689.jpg", alt: "Worship at Refresh Church" },
+        { id: 8, src: "/photos/easter/img5.webp", alt: "People at Refresh Church" },
         { id: 5, src: "/photos/christmas/IMG_5638.jpg", alt: "Glowing star decorations" },
       ]
     : Array.from({ length: 16 }, (_, i) => ({

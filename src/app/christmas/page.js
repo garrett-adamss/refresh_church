@@ -38,7 +38,7 @@ export default function ChristmasPage() {
                 </a>
               </p>
               <p className="text-lg">
-              Enjoy hot cocoa and treats, amazing music, kids choir, and a Christmas story message. Services will last no more than an hour and have a &quot;come as you are&quot; vibe. Bring the whole family!
+              Enjoy hot cocoa and treats, amazing music, kids choir, and a Christmas story message. Services will last no more than an hour and have a &quot;come as you are&quot; vibe. Bring the whole family! <strong className="text-[#a51c27]">Childcare is provided for children ages 3 and younger.</strong>
               </p>
               {/* ✅ Button 1 */}
               {/* <Link
@@ -52,10 +52,10 @@ export default function ChristmasPage() {
           <div className="lg:w-1/2 w-full">
             <div className="w-full h-[250px] relative overflow-hidden rounded-2xl shadow-lg">
               <Image
-                src="/photos/christmas/IMG_5638.jpg"
+                src="/photos/christmas/candlelight-service.jpg"
                 layout="fill"
                 objectFit="cover"
-                alt="Glowing star decorations"
+                alt="TJ on stage facing the congregation at a candlelight service"
               />
             </div>
           </div>
@@ -106,11 +106,11 @@ export default function ChristmasPage() {
           <div className="lg:w-1/2 w-full">
             <div className="w-full h-[250px] relative overflow-hidden rounded-2xl shadow-lg">
               <Image
-                src="/photos/christmas/IMG_5635.jpg"
+                src="/photos/easter/img13.webp"
                 layout="fill"
                 objectPosition="0 55%"
                 objectFit="cover"
-                alt="Christmas wreath on a wooden wall"
+                alt="People gathered at Refresh Church"
               />
             </div>
           </div>
@@ -124,9 +124,9 @@ export default function ChristmasPage() {
 
       <section className="bg-[#ff383f]">
         <Image
-          src="/photos/christmas/IMG_5639.jpg"
-          width={1200}
-          height={675}
+          src="/photos/christmas/starry-nights-no-times.png"
+          width={1920}
+          height={1080}
           className="block h-auto w-full"
           alt="Starry Nights: Christmas at Refresh"
         />
