@@ -38,7 +38,7 @@ export default function ChristmasPage() {
                 </a>
               </p>
               <p className="text-lg">
-              Enjoy hot cocoa and treats, amazing music, kids choir, and a Christmas story message. Services will last no more than an hour and have a &quot;come as you are&quot; vibe. Bring the whole family! <strong className="text-[#a51c27]">Childcare is provided for children ages 3 and younger.</strong>
+              Remembering the reason for the season. Come join Refresh Church as we celebrate Christmas on Dec 23rd. Lots to do and be a part of this year. There will be a photo booth, REFRESHments, Christmas music, kids program/choir, a Christmas story message with a candle light ending. Services will last about an hour and have a &quot;come as you are&quot; feel. Bring the whole family and invite a friend. <strong className="text-[#a51c27]">Childcare is provided for children ages 3 and younger.</strong>
               </p>
               {/* ✅ Button 1 */}
               {/* <Link

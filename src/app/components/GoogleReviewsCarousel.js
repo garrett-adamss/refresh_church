@@ -3,24 +3,25 @@
 import { useEffect, useState } from 'react';
 import { Star } from 'lucide-react';
 
+// Reviews verified on Google Maps in November 2026. Use calendar years so
+// their displayed dates do not become stale like fixed relative dates.
 const reviews = [
   {
-    name: "Dave Aughenbaugh",
+    name: "Kidslik65 Nunya",
     rating: 5,
-    text: "A very kind and loving thing they do. I recently lost my job and they brought food. I absolutely love and appreciate what they have done. May God bless these people. They almost made be cry only because of this beautiful generosity. THANK YOU VERY MUCH!!",
-    date: "3 weeks ago"
+    text: "Highly recommend. This is a spirit filled church.",
+    date: "2026"
   },
   {
-    name: "Frank Schmitt",
+    name: "Will Groulx",
     rating: 5,
-    text: "Friendly and amazing atmosphere! Scripture is well taught by very a dedicated pastor with a heart and mind for the Lord!",
-    date: "2 years ago"
+    text: "Great people and vibes",
+    date: "2026"
   },
   {
-    name: "Kelly Golay",
+    name: "Kelley Golay",
     rating: 5,
-    text: "Visiting from Jerome, Idaho. People were very friendly and genuine. Loved the worship music.  The message was biblically solid and substantive. We will be back again sometime.",
-    date: "1 month ago"
+    text: "Visiting from Jerome, Idaho. People were very friendly and genuine. Loved the worship music.  The message was biblically solid and substantive. We will be back again sometime."
   }
 ];
 
@@ -74,7 +75,7 @@ export default function GoogleReviewsCarousel() {
                   <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
                 ))}
               </div>
-              <span className="ml-2 text-gray-600 text-sm">4.9</span>
+              <a className="ml-2 text-gray-600 text-sm underline" href="https://www.google.com/maps/place/Refresh+Church/@43.638515,-116.480845,17z/data=!4m8!3m7!1s0x54afab6678a860ad:0x82e71e5f1b73360!8m2!3d43.638515!4d-116.480845!9m1!1b1!16s%2Fg%2F11mr0q5s1n" >See all Google reviews</a>
             </div>
           </div>
         </div>
@@ -112,7 +113,7 @@ export default function GoogleReviewsCarousel() {
                             <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
                           ))}
                         </div>
-                        <span className="ml-2 text-gray-500 text-sm whitespace-nowrap">{review.date}</span>
+                        {review.date && <span className="ml-2 text-gray-500 text-sm whitespace-nowrap">{review.date}</span>}
                       </div>
                     </div>
                   </div>
