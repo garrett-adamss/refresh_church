@@ -38,7 +38,7 @@ export default function ChristmasPage() {
                 </a>
               </p>
               <p className="text-lg">
-              Remembering the reason for the season. Come join Refresh Church as we celebrate Christmas on Dec 23rd. Lots to do and be a part of this year. There will be a photo booth, REFRESHments, Christmas music, kids program/choir, a Christmas story message with a candle light ending. Services will last about an hour and have a &quot;come as you are&quot; feel. Bring the whole family and invite a friend. <strong className="text-[#a51c27]">Childcare is provided for children ages 3 and younger.</strong>
+              Remembering the reason for the season. Come join Refresh Church as we celebrate Christmas on Dec 23rd. Lots to do and be a part of this year. There will be a photo booth, REFRESHments, Christmas music, a kids’ program and choir, and a Christmas message with a candlelight ending. Services will last about an hour and have a &quot;come as you are&quot; feel. Bring the whole family and invite a friend. <strong className="text-[#a51c27]">Childcare is provided for children ages 3 and younger.</strong>
               </p>
               {/* ✅ Button 1 */}
               {/* <Link
@@ -68,7 +68,7 @@ export default function ChristmasPage() {
             <div className="lg:w-1/2 lg:pl-8 mb-8 lg:mb-0">
               <h1 className="text-3xl font-semibold text-gray-900 mb-4">Join Refresh Church this holiday season!</h1>
               <div className="text-gray-700 text-lg space-y-3">
-                <p>Family service, Kids activity booklet included.</p>
+                <p>This is a family service, and a kids’ activity booklet is included.</p>
                 <p>Services are at Owyhee High School with plenty of parking.</p>
               </div>
             </div>
